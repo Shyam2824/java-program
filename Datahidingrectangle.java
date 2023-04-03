@@ -13,7 +13,7 @@ class Rectangle{
         length=l;
     }
     public void setbreadth(int b){
-        length=b;
+        breadth=b;
     }
     public int area(){
         return length*breadth;
