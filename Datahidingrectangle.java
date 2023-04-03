@@ -35,9 +35,12 @@ public class Datahidingrectangle {
     
     Rectangle r= new Rectangle();
     r.setlength(58);
-    r.setbreadth(6);
+    r.setbreadth(85);
     System.out.println("area: "+ r.area() );
     System.out.println("perimeter: "+ r.perimeter() );
     System.out.println("Square: "+ r.isSquare() );
+    System.out.println("length: " + r.getlength());
+    System.out.println("breadth: " + r.getbreadth());
+
     }
 }
