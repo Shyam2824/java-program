@@ -24,7 +24,7 @@ public class TheArray {
         System.out.println(" ");
 
         // find the items 66
-        serchkey=66;
+        serchkey=56;
         for (j=0;j<nElems;j++)   // for each element
         if(arr[j]==serchkey)  // found
         break;
@@ -43,6 +43,10 @@ public class TheArray {
         for(int k=j;k<nElems-1; k++)  // move higher ones down
         arr[k]= arr[k+1];
         nElems--;  // decement size
-        
+
+        // display items
+        for(j=0;j<nElems;j++)
+        System.out.println(arr[j] + " ");
+        System.out.println(" ");
     }
 }
