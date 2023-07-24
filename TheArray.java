@@ -23,6 +23,26 @@ public class TheArray {
         System.out.println(arr[j] + " ");
         System.out.println(" ");
 
+        // find the items 66
+        serchkey=66;
+        for (j=0;j<nElems;j++)   // for each element
+        if(arr[j]==serchkey)  // found
+        break;
+
+        if(j== nElems)
+        System.out.println("can't find " + serchkey); // yes
+
+        else
+        System.out.println("found " + serchkey);  // no
+
+        // delete the items 55
+        serchkey=55;
+        for(j=0;j<nElems;j++)
+        if(arr[j]==serchkey)
+        break;
+        for(int k=j;k<nElems-1; k++)  // move higher ones down
+        arr[k]= arr[k+1];
+        nElems--;  // decement size
         
     }
 }
