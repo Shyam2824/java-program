@@ -7,6 +7,7 @@ public class Sum_even {
         int l= sc.nextInt();
         int sum=0;
         for(int i=0;i<=l;i++){
+           // if(i%2==1)
             if(i%2==0)
             sum= sum+i;
            // System.out.println("Sum " + sum);
