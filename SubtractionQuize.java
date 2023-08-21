@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SubtractionQuize {
     
     public static void main(String[] args) {
-        final int  NUMBER_OF_QUESTION=5; // Number of question
+        final int  NUMBER_OF_QUESTION=9; // Number of question
         int correctCount=0; // count the number of the question
         int count =0; // count the number of question
         long startTime= System.currentTimeMillis();
