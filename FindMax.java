@@ -4,8 +4,8 @@ public class FindMax {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int number;
-        int a_max=Integer.MAX_VALUE; 
-        int a_min=Integer.MIN_VALUE;
+        int a_max=Integer.MIN_VALUE; 
+        int a_min=Integer.MAX_VALUE;
         char choice;
         do{
             System.out.println("Enter the number :");
