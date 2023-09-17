@@ -16,5 +16,17 @@ public class iterate {
 		String x = fru_list.peekLast();
 		System.out.println("Last Element in the List : " + x);
 		System.out.println("Original Linked List : " + fru_list);
+        if(fru_list.contains("Papaya")){
+            System.out.println("Present in the list ....");
+        }
+        else{
+            System.out.println("Not present in list....");
+        }
+        if(fru_list.contains("Carrot")){
+            System.out.println("Present in the list ....");
+        }
+        else{
+            System.out.println("Not present in list....");
+        }
     }
 }
