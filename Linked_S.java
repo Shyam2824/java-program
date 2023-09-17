@@ -9,11 +9,11 @@ public class Linked_S {
         fruit_List.add("Apple");
         fruit_List.add("Papaya");
         System.out.println("Fruit list in linked list: " + fruit_List);
-        LinkedList <String> new_fruit= new LinkedList<String>();
-        new_fruit.add("Watermelon");
-        new_fruit.add("Guava");
-        new_fruit.add("Cherry");
-        fruit_List.addAll(4,new_fruit);
+       
+        fruit_List.addFirst("Watermelon");
+        fruit_List.addLast("Guava");
+        //fruit_List.add("Cherry");
+      
         System.out.println("fruit list " + fruit_List);
     }
 }
