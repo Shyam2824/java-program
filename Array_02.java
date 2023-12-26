@@ -14,12 +14,12 @@ class LowArray{
     }
 }
 
- class Array_02 {
+public class Array_02 {
     public static void main(String[] args) {
-        LowArray [] arr;
-        arr= new LowArray [100]; // create lowArray in object
+        LowArray  arr;
+        arr= new LowArray (100); // create lowArray in object
         int nElems=0; // number of items in array
-        int j; 
+        int j;   // loop variable
 
         // insert 10 element
         arr.setElement(0 ,58);
@@ -33,7 +33,8 @@ class LowArray{
         arr.setElement(8 ,584);
         arr.setElement(9 ,508);
 
-        nElems=10;
+        nElems=10; //insert elements
+
         for(j=0;j<nElems;j++)
             System.out.println(arr.getElement(j) + " ");
             System.out.println(" ");
@@ -49,7 +50,7 @@ class LowArray{
 
             // delete value
             for(j=0;j<nElems;j++)
-            if(arr.getElement(j)==55)
+            if(arr.getElement(j)==588)
             break;
             for(int k =j;k<nElems;k++)
             arr.setElement(k, arr.getElement(k+1));
