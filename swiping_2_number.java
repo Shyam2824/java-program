@@ -12,10 +12,15 @@ public class swiping_2_number {
         System.out.println("Enter value B :");
         int b= sc.nextInt();
 
-        int t;
-        t=a;
-        a=b;
-        b=t;
+        // int t;
+        // t=a;
+        // a=b;
+        // b=t;
+
+        //without using third variable
+        a= a+b;
+        b= a-b;
+        a= a-b;
 
         System.out.println("VAlue of A is : " + a);
         System.out.println("VAlue of B is : " + b);
